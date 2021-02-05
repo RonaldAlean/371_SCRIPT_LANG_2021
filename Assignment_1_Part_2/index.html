@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel=stylesheet>
+</head>
+<body>
+    <header>
+      <h1> </h1>
+      <br />
+    </header>
+    <form action="test.php" method="post">
+        <h1>NDSU Conference Regirstration Form</h1>
+        <h2>Required Item (*)</h2>
+        <br />
+        <hr />
+        <br />
+
+      <table style="width:100%;">
+        <tr><td>Title</td><td><input id="title" type="text"></td><td></td></tr>
+        <tr><td>First Name*</td><td><input id="firstName" type="text" required/></td><td></td></tr>
+        <tr><td>Last Name*</td><td><input id="lastName" type="text" required/></td><td></td></tr>
+        <tr><td>Address*</td><td><textarea name="name" rows="3" cols="19" style="resize:none;" required/ ></textarea></td><td></td></tr>
+        <tr><td>Company or University</td><td><input id="compOrUni" type="text" /></td><td></td></tr>
+        <tr><td>Email*</td><td><input id="email" type="email" required/></td><td></td></tr>
+        <tr><td>Phone Number*</td><td><input type="tel" id="phone" name="telephone" placeholder="(nnn)-nnn-nnnn" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/></td><td></td></tr>
+        <tr><td>Membership Number</td><td><input type="text" id="phone" name="membershipNumber" placeholder="acgip-nnnnnn" pattern="[A-Za-z]{5}-[0-9]{6}"><td></td></tr>
+        <tr><td>Registration info</td><td>  <select name="registration" id="registation">
+                                                <option value="NDSU_Member">NDSU Member ($300)</option>
+                                                <option value="saab">NDSU Member ($300)</option>
+                                                <option value="opel">NDSU Member ($300)</option>
+                                                <option value="audi">NDSU Member ($300)</option>
+                                              </select></td><td></td></tr>
+      </table>
+      <br />
+      <input id="Submit1" type="submit" value="submit" />
+      <br />
+      <br />
+      <br />
+
+    </form>
+
+    <br />
+    <br />
+    <footer></footer>
+</body>
+</html>

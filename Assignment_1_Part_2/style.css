@@ -1,0 +1,31 @@
+h1:first-child{
+  color: green;
+  text-align: center;
+}
+
+hr{
+      height: 2px;
+      background-color: blue;
+      border: none;
+}
+
+h2{
+  text-align: center;
+}
+#Submit1{
+    background-color: lightgreen;
+    color: lightyellow;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border-radius: 15%;
+    margin-left: 65%
+}
+table td{
+  padding: 1%;
+  margin: 5%;
+  border: 10%;
+}
+html{
+  background-color: lightyellow;
+}
